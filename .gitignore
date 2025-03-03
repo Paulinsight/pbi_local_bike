@@ -1,2 +1,4 @@
 *.pbix
 *.pbir
+# Ignorer les fichiers de configuration locale Power BI
+*.pbi/localSettings.json
