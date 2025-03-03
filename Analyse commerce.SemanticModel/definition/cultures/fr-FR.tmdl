@@ -1072,7 +1072,9 @@ cultureInfo fr-FR
 			      },
 			      "State": "Generated",
 			      "Terms": [
-			        {},
+			        {
+			          "": {}
+			        },
 			        {
 			          "location": {
 			            "Type": "Noun",
@@ -3140,7 +3142,9 @@ cultureInfo fr-FR
 			      },
 			      "State": "Generated",
 			      "Terms": [
-			        {},
+			        {
+			          "": {}
+			        },
 			        {
 			          "location": {
 			            "Type": "Noun",
