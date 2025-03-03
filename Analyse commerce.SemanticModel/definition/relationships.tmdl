@@ -1,0 +1,55 @@
+relationship 86a49850-3e18-419d-afde-a50adba3f3b7
+	joinOnDateBehavior: datePartOnly
+	fromColumn: dimdates.Date
+	toColumn: LocalDateTable_f1befe32-adcc-4b61-9515-0f6883a34015.Date
+
+relationship c44a1a5c-1e35-4317-b5f6-ae1543bff817
+	joinOnDateBehavior: datePartOnly
+	fromColumn: orders.shipped_date
+	toColumn: LocalDateTable_692ea429-557d-4ea1-b6c9-6c2c62546c6b.Date
+
+relationship AutoDetected_76aa4faf-b378-4ce6-aaf6-90d8168fcfd8
+	fromColumn: orders.customer_id
+	toColumn: dimcustomers.customer_id
+
+relationship AutoDetected_3d817877-6638-497d-88ff-58fadb283b63
+	fromColumn: orders.product_id
+	toColumn: dimproducts.product_id
+
+relationship AutoDetected_be7a77fb-ae95-42f0-bd1f-28ad332f819e
+	fromColumn: stocks.product_id
+	toColumn: dimproducts.product_id
+
+relationship AutoDetected_60c02bb6-6acc-4a17-8125-76075375959d
+	fromColumn: orders.staff_id
+	toColumn: dimstaffs.staff_id
+
+relationship AutoDetected_513b75cd-ebcc-4a1e-bb8b-d6b991d49435
+	fromColumn: orders.store_id
+	toColumn: dimstores.store_id
+
+relationship AutoDetected_27c71a46-50c8-4828-b503-626ebf1a5312
+	fromColumn: stocks.store_id
+	toColumn: dimstores.store_id
+
+relationship 85224ae5-9216-41e4-a4cb-f18b7dd52c51
+	joinOnDateBehavior: datePartOnly
+	fromColumn: orders.required_date
+	toColumn: LocalDateTable_9e11f438-3c02-46d6-8e2e-ef73978d3d14.Date
+
+relationship 76cb355e-4e12-36de-6e03-aaaf25051f9e
+	fromColumn: orders.order_date
+	toColumn: dimdates.Date
+
+relationship 1739a32b-c12e-ac6f-ad2d-09baddd6a1f2
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: PARAM_indicateurs.'Paramètre Commande'
+	toColumn: PARAM_indicateurs_M-1prog.'PARAM_indicateurs_M-1prog Commande'
+
+relationship ecc30fcd-4239-3eb9-dabf-a3c5deaae4bd
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: PARAM_indicateurs.'Paramètre Commande'
+	toColumn: PARAM_indicateurs_M-1prog%.'PARAM_indicateurs_M-1prog% Commande'
+

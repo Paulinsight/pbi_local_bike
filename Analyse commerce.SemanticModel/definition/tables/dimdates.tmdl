@@ -1,0 +1,216 @@
+table dimdates
+	lineageTag: 6e11f24b-e62d-469c-b4d5-3680f3a430c9
+
+	column Date
+		dataType: dateTime
+		formatString: Short Date
+		lineageTag: dd8441b2-24c3-4e22-a7a6-5ebe92dfc934
+		summarizeBy: none
+		sourceColumn: Date
+
+		variation Variation
+			isDefault
+			relationship: 86a49850-3e18-419d-afde-a50adba3f3b7
+			defaultHierarchy: LocalDateTable_f1befe32-adcc-4b61-9515-0f6883a34015.'Hiérarchie de dates'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Annee
+		dataType: int64
+		formatString: 0
+		lineageTag: 2d521fcb-9b69-4bb9-bbab-f449979a95b4
+		summarizeBy: sum
+		sourceColumn: Annee
+
+		annotation SummarizationSetBy = Automatic
+
+	column Numero_Mois
+		dataType: int64
+		formatString: 0
+		lineageTag: 93a201f2-5a04-4839-81a2-bab84d60c6af
+		summarizeBy: sum
+		sourceColumn: Numero_Mois
+
+		annotation SummarizationSetBy = Automatic
+
+	column Numero_Jour
+		dataType: int64
+		formatString: 0
+		lineageTag: d72a63cd-645c-46e9-8488-6408d21883c2
+		summarizeBy: sum
+		sourceColumn: Numero_Jour
+
+		annotation SummarizationSetBy = Automatic
+
+	column Mois_Long
+		dataType: string
+		lineageTag: be6a8de3-f5d7-4b4a-bae2-28c3a937d359
+		summarizeBy: none
+		sourceColumn: Mois_Long
+
+		annotation SummarizationSetBy = Automatic
+
+	column Jour_Semaine
+		dataType: string
+		lineageTag: f13069c0-2cd7-4626-8037-30edd8f82d0c
+		summarizeBy: none
+		sourceColumn: Jour_Semaine
+
+		annotation SummarizationSetBy = Automatic
+
+	column Jour_Semaine_Abrege
+		dataType: string
+		lineageTag: daec7c52-75b2-43d5-97ef-57b96a65d68d
+		summarizeBy: none
+		sourceColumn: Jour_Semaine_Abrege
+
+		annotation SummarizationSetBy = Automatic
+
+	column Numero_Jour_Semaine
+		dataType: int64
+		formatString: 0
+		lineageTag: 7831f515-517a-4f8d-9542-66ea509d63e5
+		summarizeBy: sum
+		sourceColumn: Numero_Jour_Semaine
+
+		annotation SummarizationSetBy = Automatic
+
+	column Semaine_Annee
+		dataType: int64
+		formatString: 0
+		lineageTag: 798638ba-7209-4a60-82ac-9ff4cc3ac931
+		summarizeBy: sum
+		sourceColumn: Semaine_Annee
+
+		annotation SummarizationSetBy = Automatic
+
+	column Semaine
+		dataType: string
+		lineageTag: 78546283-1403-4a78-a352-bd7572e19401
+		summarizeBy: none
+		sourceColumn: Semaine
+
+		annotation SummarizationSetBy = Automatic
+
+	column Numero_Jour_Semaine_Mois
+		dataType: int64
+		formatString: 0
+		lineageTag: c8242d15-f32d-4302-bc9c-df7ac14ffc54
+		summarizeBy: sum
+		sourceColumn: Numero_Jour_Semaine_Mois
+
+		annotation SummarizationSetBy = Automatic
+
+	column Numero_Jour_Annee
+		dataType: int64
+		formatString: 0
+		lineageTag: 33784c88-1ca6-440f-b265-16509a834da3
+		summarizeBy: sum
+		sourceColumn: Numero_Jour_Annee
+
+		annotation SummarizationSetBy = Automatic
+
+	column Trimestre
+		dataType: string
+		lineageTag: 3d61a416-14d1-44e5-9781-d3df696ab27f
+		summarizeBy: none
+		sourceColumn: Trimestre
+
+		annotation SummarizationSetBy = Automatic
+
+	column Semestre
+		dataType: string
+		lineageTag: 11568c5a-caa4-4330-860d-141e9f3acfb9
+		summarizeBy: none
+		sourceColumn: Semestre
+
+		annotation SummarizationSetBy = Automatic
+
+	column Mois_court
+		dataType: string
+		lineageTag: e65f41fb-fd50-4a02-91bc-ff8e4abed902
+		summarizeBy: none
+		sourceColumn: Mois_court
+		sortByColumn: Numero_Mois
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column annee_mois
+		dataType: string
+		lineageTag: 55db9a40-3bd1-4f5c-99c2-485d3f5b0775
+		summarizeBy: none
+		sourceColumn: annee_mois
+		sortByColumn: annee_mois_numero
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column annee_semaine_numero
+		dataType: int64
+		formatString: 0
+		lineageTag: 380111d5-542a-4704-977c-7a7836c7f663
+		summarizeBy: sum
+		sourceColumn: annee_semaine_numero
+
+		annotation SummarizationSetBy = Automatic
+
+	column annee_semaine
+		dataType: string
+		lineageTag: 3cf72320-83b8-4607-819b-13df6ff110a9
+		summarizeBy: none
+		sourceColumn: annee_semaine
+		sortByColumn: annee_semaine_numero
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column annee_mois_numero
+		dataType: int64
+		formatString: 0
+		lineageTag: 087ae2a0-95e9-42e1-a5d8-9c02493b6ba6
+		summarizeBy: sum
+		sourceColumn: annee_mois_numero
+
+		annotation SummarizationSetBy = Automatic
+
+	column annee_trimestre
+		dataType: string
+		lineageTag: 1f2bb134-8f9d-461d-ac80-e59ea0e35007
+		summarizeBy: none
+		sourceColumn: annee_trimestre
+		sortByColumn: annee_trimestre_numero
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column annee_trimestre_numero
+		dataType: int64
+		formatString: 0
+		lineageTag: 86c68b9e-b697-41fa-b70c-b7cce8a48912
+		summarizeBy: sum
+		sourceColumn: annee_trimestre_numero
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dimdates = m
+		mode: import
+		source =
+				let
+				    Source = GoogleBigQuery.Database(),
+				    #"high-nature-448517-t4" = Source{[Name="high-nature-448517-t4"]}[Data],
+				    local_bike_dbt_Schema = #"high-nature-448517-t4"{[Name="local_bike_dbt",Kind="Schema"]}[Data],
+				    mrt_dimdates_5years_Table = local_bike_dbt_Schema{[Name="mrt_dimdates",Kind="Table"]}[Data]
+				in
+				    mrt_dimdates_5years_Table
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

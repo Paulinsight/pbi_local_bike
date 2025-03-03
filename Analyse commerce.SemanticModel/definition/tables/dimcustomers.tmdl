@@ -1,0 +1,82 @@
+table dimcustomers
+	lineageTag: 00772209-8696-43f7-bd5e-c21ba77943e5
+
+	column customer_id
+		dataType: string
+		isHidden
+		lineageTag: 2c28600e-3499-4f2f-bedd-2ac44db0a26e
+		summarizeBy: none
+		sourceColumn: customer_id
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column customer
+		dataType: string
+		lineageTag: 4c3614ed-9519-467b-bdad-100832e62a81
+		summarizeBy: none
+		sourceColumn: customer
+
+		annotation SummarizationSetBy = Automatic
+
+	column phone
+		dataType: string
+		lineageTag: 615a155d-cbab-4e30-abbe-cb64f0916198
+		summarizeBy: none
+		sourceColumn: phone
+
+		annotation SummarizationSetBy = Automatic
+
+	column email
+		dataType: string
+		lineageTag: c69eb4a3-38ad-4433-8f37-1c65a8107f8b
+		summarizeBy: none
+		sourceColumn: email
+
+		annotation SummarizationSetBy = Automatic
+
+	column street
+		dataType: string
+		lineageTag: a3fdeaa4-e649-4ceb-97cb-28f6f4b810ec
+		summarizeBy: none
+		sourceColumn: street
+
+		annotation SummarizationSetBy = Automatic
+
+	column city
+		dataType: string
+		lineageTag: 9e7f9f03-f541-4e93-aa8d-bdb4ce277f0f
+		summarizeBy: none
+		sourceColumn: city
+
+		annotation SummarizationSetBy = Automatic
+
+	column state
+		dataType: string
+		lineageTag: 9cdebad7-d739-4f05-bffe-fa1d4ee71e59
+		summarizeBy: none
+		sourceColumn: state
+
+		annotation SummarizationSetBy = Automatic
+
+	column zip_code
+		dataType: int64
+		formatString: 0
+		lineageTag: 69d05eef-ea72-4888-a3e6-89837b3ee51d
+		summarizeBy: none
+		sourceColumn: zip_code
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dimcustomers = m
+		mode: import
+		source =
+				let
+				    Source = GoogleBigQuery.Database(),
+				    #"high-nature-448517-t4" = Source{[Name="high-nature-448517-t4"]}[Data],
+				    local_bike_dbt_Schema = #"high-nature-448517-t4"{[Name="local_bike_dbt",Kind="Schema"]}[Data],
+				    mrt_dimcustomers_Table = local_bike_dbt_Schema{[Name="mrt_dimcustomers",Kind="Table"]}[Data]
+				in
+				    mrt_dimcustomers_Table
+

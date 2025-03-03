@@ -1,0 +1,48 @@
+table PARAM_Dates
+	lineageTag: 0695f6c5-8281-4943-85a6-c0208b45960d
+
+	column Dates
+		lineageTag: 84e6b634-e435-4901-a832-ffe04c203dae
+		summarizeBy: none
+		sourceColumn: [Value1]
+		sortByColumn: 'Dates Commande'
+
+		relatedColumnDetails
+			groupByColumn: 'Dates Champs'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Dates Champs'
+		isHidden
+		lineageTag: de98230b-f3f6-4433-837e-cae297defc48
+		summarizeBy: none
+		sourceColumn: [Value2]
+		sortByColumn: 'Dates Commande'
+
+		extendedProperty ParameterMetadata =
+				{
+				  "version": 3,
+				  "kind": 2
+				}
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Dates Commande'
+		isHidden
+		formatString: 0
+		lineageTag: 384f4bf4-3325-400f-8bcd-d074893d75aa
+		summarizeBy: sum
+		sourceColumn: [Value3]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition PARAM_Dates = calculated
+		mode: import
+		source =
+				{
+				    ("Année trimestre", NAMEOF('dimdates'[annee_trimestre]), 0),
+				    ("Année mois", NAMEOF('dimdates'[annee_mois]), 1)
+				}
+
+	annotation PBI_Id = 1a46c0cb00bd41708ef3c4954e9de553
+

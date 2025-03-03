@@ -1,0 +1,62 @@
+table stocks
+	lineageTag: 2bc1a9c8-d408-46ab-a9bb-ba31dcddd867
+
+	measure Stocks = SUMX(stocks, stocks[stock])
+		formatString: 0
+		lineageTag: bb440c9d-748e-40da-a14a-25592482ecaf
+
+	column store_id
+		dataType: string
+		isHidden
+		lineageTag: 7a0da1d2-064e-46d5-a68e-4d3e72abd31a
+		summarizeBy: none
+		sourceColumn: store_id
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column product_id
+		dataType: string
+		isHidden
+		lineageTag: 5fde805d-c093-4a5b-8280-642ef56e4762
+		summarizeBy: none
+		sourceColumn: product_id
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column store_name
+		dataType: string
+		lineageTag: e516d98f-86fb-4edf-be47-90844c1ff207
+		summarizeBy: none
+		sourceColumn: store_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column stock
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 112c5227-c795-4c47-a009-8052184a2e8c
+		summarizeBy: sum
+		sourceColumn: stock
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	partition stocks = m
+		mode: import
+		source =
+				let
+				    Source = GoogleBigQuery.Database(),
+				    #"high-nature-448517-t4" = Source{[Name="high-nature-448517-t4"]}[Data],
+				    local_bike_dbt_Schema = #"high-nature-448517-t4"{[Name="local_bike_dbt",Kind="Schema"]}[Data],
+				    mrt_stocks_Table = local_bike_dbt_Schema{[Name="mrt_stocks",Kind="Table"]}[Data]
+				in
+				    mrt_stocks_Table
+
+	annotation PBI_ResultType = Table
+

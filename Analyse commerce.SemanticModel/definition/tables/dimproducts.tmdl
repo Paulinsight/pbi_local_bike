@@ -1,0 +1,68 @@
+table dimproducts
+	lineageTag: 2d31752a-d9cf-4361-92dd-4ef544783e14
+
+	column product_id
+		dataType: string
+		isHidden
+		lineageTag: 59a8d505-0158-47fa-9725-970fa7c28e53
+		summarizeBy: none
+		sourceColumn: product_id
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column product_name
+		dataType: string
+		lineageTag: d464f322-1bf6-49ad-ae0b-62e4b064a6b1
+		summarizeBy: none
+		sourceColumn: product_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column brand
+		dataType: string
+		lineageTag: 3dbc25b5-5d3d-4614-b61d-d51f74e7ccbd
+		summarizeBy: none
+		sourceColumn: brand
+
+		annotation SummarizationSetBy = Automatic
+
+	column category
+		dataType: string
+		lineageTag: d552f1a3-eb66-425c-95fe-55a0ca231401
+		summarizeBy: none
+		sourceColumn: category
+
+		annotation SummarizationSetBy = Automatic
+
+	column model_year
+		dataType: int64
+		formatString: 0
+		lineageTag: 29500483-e0f3-45ce-b8fd-e8b6a94b063f
+		summarizeBy: sum
+		sourceColumn: model_year
+
+		annotation SummarizationSetBy = Automatic
+
+	column price
+		dataType: double
+		lineageTag: 3e906916-04cd-41eb-aa42-18e8d5672cde
+		summarizeBy: sum
+		sourceColumn: price
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition dimproducts = m
+		mode: import
+		source =
+				let
+				    Source = GoogleBigQuery.Database(),
+				    #"high-nature-448517-t4" = Source{[Name="high-nature-448517-t4"]}[Data],
+				    local_bike_dbt_Schema = #"high-nature-448517-t4"{[Name="local_bike_dbt",Kind="Schema"]}[Data],
+				    mrt_dimproducts_Table = local_bike_dbt_Schema{[Name="mrt_dimproducts",Kind="Table"]}[Data]
+				in
+				    mrt_dimproducts_Table
+

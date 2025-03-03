@@ -1,0 +1,50 @@
+table PARAM_indicateurs_M-1prog
+	lineageTag: f30b3067-8ed4-4f9e-b59d-668a5fe1ec86
+
+	column indicateurs_M-1prog
+		lineageTag: 96ac03b4-fb7e-4d2a-910b-35dfbf2869d4
+		summarizeBy: none
+		sourceColumn: [Value1]
+		sortByColumn: 'PARAM_indicateurs_M-1prog Commande'
+
+		relatedColumnDetails
+			groupByColumn: 'PARAM_indicateurs_M-1prog Champs'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'PARAM_indicateurs_M-1prog Champs'
+		isHidden
+		lineageTag: 4c264443-037b-4ede-8171-be5eac21c8cb
+		summarizeBy: none
+		sourceColumn: [Value2]
+		sortByColumn: 'PARAM_indicateurs_M-1prog Commande'
+
+		extendedProperty ParameterMetadata =
+				{
+				  "version": 3,
+				  "kind": 2
+				}
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'PARAM_indicateurs_M-1prog Commande'
+		isHidden
+		formatString: 0
+		lineageTag: 1acd67b7-9f11-4da2-8363-cfedf24e44fc
+		summarizeBy: none
+		sourceColumn: [Value3]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition PARAM_indicateurs_M-1prog = calculated
+		mode: import
+		source =
+				{
+				    ("CA_M-1prog", NAMEOF('orders'[CA_M-1prog]), 0),
+				    ("Quantité_M-1prog", NAMEOF('orders'[Quantité_M-1prog]), 1),
+				    ("PrixMoyen_M-1prog", NAMEOF('orders'[PrixMoyen_M-1prog]), 2),
+				    ("NbClients_M-1prog", NAMEOF('orders'[NbClients_M-1prog]), 3)
+				}
+
+	annotation PBI_Id = ed51ce1753f04067bd08d7a658a8f816
+

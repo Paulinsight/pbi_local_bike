@@ -1,0 +1,87 @@
+table dimstaffs
+	lineageTag: 907f3cd2-8b75-434f-a43c-511fe206b27f
+
+	column staff_id
+		dataType: string
+		lineageTag: 898ab3dd-fb25-4400-afa8-9f590f335487
+		summarizeBy: none
+		sourceColumn: staff_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column store_id
+		dataType: string
+		lineageTag: 3a225434-3a39-4ce2-8853-914e17af2f6f
+		summarizeBy: none
+		sourceColumn: store_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column store_name
+		dataType: string
+		lineageTag: a24ac945-b677-4e48-905c-8fdabcd50d52
+		summarizeBy: none
+		sourceColumn: store_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column manager_id
+		dataType: string
+		lineageTag: dda05066-2e7b-46c4-b399-e44115070782
+		summarizeBy: none
+		sourceColumn: manager_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column manager
+		dataType: string
+		lineageTag: f5695e67-3a0f-4596-970e-e0036099e605
+		summarizeBy: none
+		sourceColumn: manager
+
+		annotation SummarizationSetBy = Automatic
+
+	column staff
+		dataType: string
+		lineageTag: 91f79386-f7cf-40d8-bdcd-764abf544849
+		summarizeBy: none
+		sourceColumn: staff
+
+		annotation SummarizationSetBy = Automatic
+
+	column email
+		dataType: string
+		lineageTag: 76f492de-0df7-407d-92d6-1c868a1a8ff1
+		summarizeBy: none
+		sourceColumn: email
+
+		annotation SummarizationSetBy = Automatic
+
+	column phone
+		dataType: string
+		lineageTag: 372c96e8-7e7f-4f25-8a4d-b826da53d9e1
+		summarizeBy: none
+		sourceColumn: phone
+
+		annotation SummarizationSetBy = Automatic
+
+	column active
+		dataType: int64
+		formatString: 0
+		lineageTag: 41ef15d1-48d0-4bd4-b5b9-1f4df361bb84
+		summarizeBy: none
+		sourceColumn: active
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dimstaffs = m
+		mode: import
+		source =
+				let
+				    Source = GoogleBigQuery.Database(),
+				    #"high-nature-448517-t4" = Source{[Name="high-nature-448517-t4"]}[Data],
+				    local_bike_dbt_Schema = #"high-nature-448517-t4"{[Name="local_bike_dbt",Kind="Schema"]}[Data],
+				    mrt_dimstaffs_Table = local_bike_dbt_Schema{[Name="mrt_dimstaffs",Kind="Table"]}[Data]
+				in
+				    mrt_dimstaffs_Table
+

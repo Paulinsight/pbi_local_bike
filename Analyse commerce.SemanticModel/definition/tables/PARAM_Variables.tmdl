@@ -1,0 +1,51 @@
+table PARAM_Variables
+	lineageTag: d324ddb4-5b82-4419-98a2-f9a57a1e2d45
+
+	column Variables
+		lineageTag: 1d052472-dc44-4b9a-81a4-a93be779a373
+		summarizeBy: none
+		sourceColumn: [Value1]
+		sortByColumn: 'Variables Commande'
+
+		relatedColumnDetails
+			groupByColumn: 'Variables Champs'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Variables Champs'
+		isHidden
+		lineageTag: e3a4165a-2e4b-42d9-a904-cbd4dfcabf80
+		summarizeBy: none
+		sourceColumn: [Value2]
+		sortByColumn: 'Variables Commande'
+
+		extendedProperty ParameterMetadata =
+				{
+				  "version": 3,
+				  "kind": 2
+				}
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Variables Commande'
+		isHidden
+		formatString: 0
+		lineageTag: 410e019e-6b74-455f-bcb7-0c180af26dc7
+		summarizeBy: sum
+		sourceColumn: [Value3]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition PARAM_Variables = calculated
+		mode: import
+		source =
+				{
+				    ("store", NAMEOF('dimstores'[store_name]), 0),
+				    ("manager", NAMEOF('dimstaffs'[manager]), 1),
+				    ("staff", NAMEOF('dimstaffs'[staff]), 2),
+				    ("category", NAMEOF('dimproducts'[category]), 3),
+				    ("brand", NAMEOF('dimproducts'[brand]), 4)
+				}
+
+	annotation PBI_Id = 3222145efc56482cb8660d51f2b79d10
+

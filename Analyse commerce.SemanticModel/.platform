@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Analyse commerce"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "08410678-eccb-4819-8e3d-20d4cc852616"
+  }
+}

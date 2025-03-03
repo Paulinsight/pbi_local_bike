@@ -1,0 +1,37 @@
+model Model
+	culture: fr-FR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: fr-FR
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["dimdates","dimcustomers","dimproducts","dimstaffs","dimstores","orders","stocks"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBIDesktopVersion = 2.140.1078.0 (25.02)+2cce24fb16e8b71ba835921d23e7ffc1fab909df
+
+annotation __TEdtr = 1
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table dimdates
+ref table DateTableTemplate_14089ea2-45b1-48c3-af91-3bef1750d14d
+ref table LocalDateTable_f1befe32-adcc-4b61-9515-0f6883a34015
+ref table dimcustomers
+ref table dimproducts
+ref table dimstaffs
+ref table dimstores
+ref table orders
+ref table LocalDateTable_692ea429-557d-4ea1-b6c9-6c2c62546c6b
+ref table stocks
+ref table LocalDateTable_9e11f438-3c02-46d6-8e2e-ef73978d3d14
+ref table PARAM_Dates
+ref table PARAM_indicateurs
+ref table PARAM_Variables
+ref table PARAM_indicateurs_M-1prog
+ref table PARAM_indicateurs_M-1prog%
+
+ref cultureInfo fr-FR
+

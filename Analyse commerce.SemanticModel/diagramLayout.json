@@ -1,0 +1,172 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 508.60550849269487,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 88.571428571428569,
+            "y": 0
+          },
+          "nodeIndex": "dimcustomers",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 952.79257982981267,
+            "y": 0
+          },
+          "nodeIndex": "dimproducts",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 5
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 375.80946490051565
+          },
+          "nodeIndex": "dimstaffs",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 6
+        },
+        {
+          "location": {
+            "x": 938.53494219306765,
+            "y": 475.70084442332143
+          },
+          "nodeIndex": "dimstores",
+          "nodeLineageTag": "8a917616-7a5c-420c-98f6-39bd47535f5f",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 7
+        },
+        {
+          "location": {
+            "x": 508.60550849269487,
+            "y": 409.69611042759857
+          },
+          "nodeIndex": "orders",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 8
+        },
+        {
+          "location": {
+            "x": 1412.6984755299361,
+            "y": 198.69455271124275
+          },
+          "nodeIndex": "stocks",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 9
+        },
+        {
+          "location": {
+            "x": 508.12704695850732,
+            "y": 0
+          },
+          "nodeIndex": "dimdates",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 10
+        },
+        {
+          "location": {
+            "x": 2513.5556183870785,
+            "y": 50.707565068803532
+          },
+          "nodeIndex": "PARAM_indicateurs",
+          "nodeLineageTag": "f18314e6-9442-4708-a570-35cde0d33567",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 1759.555618387079,
+            "y": 184.99327935451782
+          },
+          "nodeIndex": "PARAM_Dates",
+          "nodeLineageTag": "0695f6c5-8281-4943-85a6-c0208b45960d",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 1757.555618387079,
+            "y": 0
+          },
+          "nodeIndex": "PARAM_Variables",
+          "nodeLineageTag": "d324ddb4-5b82-4419-98a2-f9a57a1e2d45",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 2297.2699041013648,
+            "y": 303.56470792594644
+          },
+          "nodeIndex": "PARAM_indicateurs_M-1prog",
+          "nodeLineageTag": "f30b3067-8ed4-4f9e-b59d-668a5fe1ec86",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 12
+        },
+        {
+          "location": {
+            "x": 2832.6984755299363,
+            "y": 296.42185078308927
+          },
+          "nodeIndex": "PARAM_indicateurs_M-1prog%",
+          "nodeLineageTag": "3f2c94d1-b28c-43bf-9449-4274a66f8873",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 11
+        }
+      ],
+      "name": "Toutes les tables",
+      "zoomValue": 70,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Toutes les tables",
+  "defaultDiagram": "Toutes les tables"
+}

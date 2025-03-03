@@ -1,0 +1,50 @@
+table PARAM_indicateurs
+	lineageTag: f18314e6-9442-4708-a570-35cde0d33567
+
+	column indicateurs
+		lineageTag: e60cf3de-c8fa-4998-8838-24f04b6e5c9c
+		summarizeBy: none
+		sourceColumn: [Value1]
+		sortByColumn: 'Paramètre Commande'
+
+		relatedColumnDetails
+			groupByColumn: 'Paramètre Champs'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Paramètre Champs'
+		isHidden
+		lineageTag: 3094754e-7095-402d-a1a0-8baad83ff08d
+		summarizeBy: none
+		sourceColumn: [Value2]
+		sortByColumn: 'Paramètre Commande'
+
+		extendedProperty ParameterMetadata =
+				{
+				  "version": 3,
+				  "kind": 2
+				}
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Paramètre Commande'
+		isHidden
+		formatString: 0
+		lineageTag: 986cbf23-fc70-4d81-aec9-09dd20d5dcc9
+		summarizeBy: none
+		sourceColumn: [Value3]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition PARAM_indicateurs = calculated
+		mode: import
+		source =
+				{
+				    ("CA", NAMEOF('orders'[CA]), 0),
+				    ("Quantité", NAMEOF('orders'[Quantité]), 1),
+				    ("Prix Moyen", NAMEOF('orders'[PrixMoyen]), 2),
+				    ("nb Clients", NAMEOF('orders'[NbClients]), 3)
+				}
+
+	annotation PBI_Id = 46f3874e71cc4756a8106a0184156b60
+
