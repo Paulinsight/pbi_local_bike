@@ -1,4 +1,4 @@
-table PARAM_Dates
+table _param_dates
 	lineageTag: 0695f6c5-8281-4943-85a6-c0208b45960d
 
 	column Dates
@@ -36,7 +36,7 @@ table PARAM_Dates
 
 		annotation SummarizationSetBy = Automatic
 
-	partition PARAM_Dates = calculated
+	partition _param_dates = calculated
 		mode: import
 		source =
 				{

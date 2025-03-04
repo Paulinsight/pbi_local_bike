@@ -27,11 +27,10 @@ ref table orders
 ref table LocalDateTable_692ea429-557d-4ea1-b6c9-6c2c62546c6b
 ref table stocks
 ref table LocalDateTable_9e11f438-3c02-46d6-8e2e-ef73978d3d14
-ref table PARAM_Dates
-ref table PARAM_indicateurs
-ref table PARAM_Variables
-ref table PARAM_indicateurs_M-1prog
-ref table PARAM_indicateurs_M-1prog%
+ref table _param_dates
+ref table _param_variables
+ref table _mesures
+ref table _param_indicateurs
 
 ref cultureInfo fr-FR
 

@@ -62,22 +62,22 @@
   "textClasses": {
     "callout": {
       "fontSize": 45,
-      "fontFace": "DIN",
+      "fontFace": "VERDANA",
       "color": "#252423"
     },
     "title": {
       "fontSize": 12,
-      "fontFace": "DIN",
+      "fontFace": "VERDANA",
       "color": "#252423"
     },
     "header": {
       "fontSize": 12,
-      "fontFace": "Segoe UI Semibold",
+      "fontFace": "VERDANA",
       "color": "#252423"
     },
     "label": {
       "fontSize": 10,
-      "fontFace": "Segoe UI",
+      "fontFace": "VERDANA",
       "color": "#252423"
     }
   },
