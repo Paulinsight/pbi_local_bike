@@ -41,15 +41,3 @@ relationship 76cb355e-4e12-36de-6e03-aaaf25051f9e
 	fromColumn: orders.order_date
 	toColumn: dimdates.Date
 
-relationship 1739a32b-c12e-ac6f-ad2d-09baddd6a1f2
-	crossFilteringBehavior: bothDirections
-	fromCardinality: one
-	fromColumn: PARAM_indicateurs.'Paramètre Commande'
-	toColumn: PARAM_indicateurs_M-1prog.'PARAM_indicateurs_M-1prog Commande'
-
-relationship ecc30fcd-4239-3eb9-dabf-a3c5deaae4bd
-	crossFilteringBehavior: bothDirections
-	fromCardinality: one
-	fromColumn: PARAM_indicateurs.'Paramètre Commande'
-	toColumn: PARAM_indicateurs_M-1prog%.'PARAM_indicateurs_M-1prog% Commande'
-

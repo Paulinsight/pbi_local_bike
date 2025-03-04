@@ -5013,7 +5013,7 @@ cultureInfo fr-FR
 			    "order.ca": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "orders",
+			          "ConceptualEntity": "_mesures",
 			          "ConceptualProperty": "CA"
 			        }
 			      },
@@ -5029,7 +5029,7 @@ cultureInfo fr-FR
 			    "order.quantité": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "orders",
+			          "ConceptualEntity": "_mesures",
 			          "ConceptualProperty": "Quantité"
 			        }
 			      },
@@ -5045,7 +5045,7 @@ cultureInfo fr-FR
 			    "order.prix_moyen": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "orders",
+			          "ConceptualEntity": "_mesures",
 			          "ConceptualProperty": "PrixMoyen"
 			        }
 			      },
@@ -5068,7 +5068,7 @@ cultureInfo fr-FR
 			    "order.nb_clients": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "orders",
+			          "ConceptualEntity": "_mesures",
 			          "ConceptualProperty": "NbClients"
 			        }
 			      },
@@ -5971,7 +5971,7 @@ cultureInfo fr-FR
 			    "order.ca_m_1": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "orders",
+			          "ConceptualEntity": "_mesures",
 			          "ConceptualProperty": "CA_M-1"
 			        }
 			      },
@@ -6000,7 +6000,7 @@ cultureInfo fr-FR
 			    "order.CA_M1prog": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "orders",
+			          "ConceptualEntity": "_mesures",
 			          "ConceptualProperty": "CA_M-1prog%"
 			        }
 			      },
@@ -6036,7 +6036,7 @@ cultureInfo fr-FR
 			    "order.CA_M_1prog": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "orders",
+			          "ConceptualEntity": "_mesures",
 			          "ConceptualProperty": "CA_M-1prog"
 			        }
 			      },
@@ -6059,7 +6059,7 @@ cultureInfo fr-FR
 			    "order.nb_clients_M_1": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "orders",
+			          "ConceptualEntity": "_mesures",
 			          "ConceptualProperty": "NbClients_M-1"
 			        }
 			      },
@@ -6094,7 +6094,7 @@ cultureInfo fr-FR
 			    "order.nb_produits": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "orders",
+			          "ConceptualEntity": "_mesures",
 			          "ConceptualProperty": "NbProduits"
 			        }
 			      },
@@ -6117,7 +6117,7 @@ cultureInfo fr-FR
 			    "order.nb_produits_M_1": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "orders",
+			          "ConceptualEntity": "_mesures",
 			          "ConceptualProperty": "NbProduits_M-1"
 			        }
 			      },
@@ -6140,7 +6140,7 @@ cultureInfo fr-FR
 			    "order.quantité_M_1": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "orders",
+			          "ConceptualEntity": "_mesures",
 			          "ConceptualProperty": "Quantité_M-1"
 			        }
 			      },
@@ -6163,7 +6163,7 @@ cultureInfo fr-FR
 			    "order.nb_clients_M_1prog": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "orders",
+			          "ConceptualEntity": "_mesures",
 			          "ConceptualProperty": "NbClients_M-1prog"
 			        }
 			      },
@@ -6186,7 +6186,7 @@ cultureInfo fr-FR
 			    "order.nb_produits_M_1prog": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "orders",
+			          "ConceptualEntity": "_mesures",
 			          "ConceptualProperty": "NbProduits_M-1prog"
 			        }
 			      },
@@ -6209,7 +6209,7 @@ cultureInfo fr-FR
 			    "order.quantité_M_1prog": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "orders",
+			          "ConceptualEntity": "_mesures",
 			          "ConceptualProperty": "Quantité_M-1prog"
 			        }
 			      },
@@ -6232,7 +6232,7 @@ cultureInfo fr-FR
 			    "order.prix_moyen_M_1": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "orders",
+			          "ConceptualEntity": "_mesures",
 			          "ConceptualProperty": "PrixMoyen_M-1"
 			        }
 			      },
@@ -6255,7 +6255,7 @@ cultureInfo fr-FR
 			    "order.prix_moyen_M_1prog": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "orders",
+			          "ConceptualEntity": "_mesures",
 			          "ConceptualProperty": "PrixMoyen_M-1prog"
 			        }
 			      },
@@ -6278,7 +6278,7 @@ cultureInfo fr-FR
 			    "order.NbClients_M1prog": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "orders",
+			          "ConceptualEntity": "_mesures",
 			          "ConceptualProperty": "NbClients_M-1prog%"
 			        }
 			      },
@@ -6314,7 +6314,7 @@ cultureInfo fr-FR
 			    "order.PrixMoyen_M1prog": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "orders",
+			          "ConceptualEntity": "_mesures",
 			          "ConceptualProperty": "PrixMoyen_M-1prog%"
 			        }
 			      },
@@ -6350,7 +6350,7 @@ cultureInfo fr-FR
 			    "order.NbProduits_M1prog": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "orders",
+			          "ConceptualEntity": "_mesures",
 			          "ConceptualProperty": "NbProduits_M-1prog%"
 			        }
 			      },
@@ -6386,7 +6386,7 @@ cultureInfo fr-FR
 			    "order.Quantité_M1prog": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "orders",
+			          "ConceptualEntity": "_mesures",
 			          "ConceptualProperty": "Quantité_M-1prog%"
 			        }
 			      },
@@ -6422,7 +6422,7 @@ cultureInfo fr-FR
 			    "order.CA_12_derniers_mois": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "orders",
+			          "ConceptualEntity": "_mesures",
 			          "ConceptualProperty": "CA_12DerniersMois"
 			        }
 			      },
@@ -6455,7 +6455,7 @@ cultureInfo fr-FR
 			    "order.CA_indicateur_prog": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "orders",
+			          "ConceptualEntity": "_mesures",
 			          "ConceptualProperty": "CA_indicateur_prog%"
 			        }
 			      },
@@ -6491,7 +6491,7 @@ cultureInfo fr-FR
 			    "PARAM_date": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "PARAM_Dates"
+			          "ConceptualEntity": "_param_dates"
 			        }
 			      },
 			      "State": "Generated",
@@ -6533,7 +6533,7 @@ cultureInfo fr-FR
 			    "PARAM_date.date": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "PARAM_Dates",
+			          "ConceptualEntity": "_param_dates",
 			          "ConceptualProperty": "Dates"
 			        }
 			      },
@@ -6569,7 +6569,7 @@ cultureInfo fr-FR
 			    "PARAM_date.dates_champs": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "PARAM_Dates",
+			          "ConceptualEntity": "_param_dates",
 			          "ConceptualProperty": "Dates Champs"
 			        }
 			      },
@@ -6681,7 +6681,7 @@ cultureInfo fr-FR
 			    "PARAM_date.dates_commande": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "PARAM_Dates",
+			          "ConceptualEntity": "_param_dates",
 			          "ConceptualProperty": "Dates Commande"
 			        }
 			      },
@@ -6704,126 +6704,10 @@ cultureInfo fr-FR
 			        }
 			      ]
 			    },
-			    "PARAM_indicateur": {
-			      "Definition": {
-			        "Binding": {
-			          "ConceptualEntity": "PARAM_indicateurs"
-			        }
-			      },
-			      "State": "Generated",
-			      "Terms": [
-			        {
-			          "PARAM indicateur": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "PARAM_indicateurs": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.99
-			          }
-			        }
-			      ]
-			    },
-			    "PARAM_indicateur.indicateur": {
-			      "Definition": {
-			        "Binding": {
-			          "ConceptualEntity": "PARAM_indicateurs",
-			          "ConceptualProperty": "indicateurs"
-			        }
-			      },
-			      "State": "Generated",
-			      "Terms": [
-			        {
-			          "indicateur": {
-			            "State": "Generated"
-			          }
-			        }
-			      ]
-			    },
-			    "PARAM_indicateur.paramètre_champs": {
-			      "Definition": {
-			        "Binding": {
-			          "ConceptualEntity": "PARAM_indicateurs",
-			          "ConceptualProperty": "Paramètre Champs"
-			        }
-			      },
-			      "State": "Generated",
-			      "Visibility": {
-			        "Value": "Hidden"
-			      },
-			      "Terms": [
-			        {
-			          "paramètre champs": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "paramètre winner": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.5
-			          }
-			        },
-			        {
-			          "paramètre victor": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.5
-			          }
-			        },
-			        {
-			          "paramètre titleholder": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.5
-			          }
-			        },
-			        {
-			          "paramètre champion": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.485
-			          }
-			        }
-			      ]
-			    },
-			    "PARAM_indicateur.paramètre_commande": {
-			      "Definition": {
-			        "Binding": {
-			          "ConceptualEntity": "PARAM_indicateurs",
-			          "ConceptualProperty": "Paramètre Commande"
-			        }
-			      },
-			      "State": "Generated",
-			      "Visibility": {
-			        "Value": "Hidden"
-			      },
-			      "Terms": [
-			        {
-			          "paramètre commande": {
-			            "State": "Generated"
-			          }
-			        }
-			      ]
-			    },
 			    "PARAM_variable": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "PARAM_Variables"
+			          "ConceptualEntity": "_param_variables"
 			        }
 			      },
 			      "State": "Generated",
@@ -6845,7 +6729,7 @@ cultureInfo fr-FR
 			    "PARAM_variable.variable": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "PARAM_Variables",
+			          "ConceptualEntity": "_param_variables",
 			          "ConceptualProperty": "Variables"
 			        }
 			      },
@@ -6951,7 +6835,7 @@ cultureInfo fr-FR
 			    "PARAM_variable.variables_champs": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "PARAM_Variables",
+			          "ConceptualEntity": "_param_variables",
 			          "ConceptualProperty": "Variables Champs"
 			        }
 			      },
@@ -7063,7 +6947,7 @@ cultureInfo fr-FR
 			    "PARAM_variable.variables_commande": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "PARAM_Variables",
+			          "ConceptualEntity": "_param_variables",
 			          "ConceptualProperty": "Variables Commande"
 			        }
 			      },
@@ -7082,332 +6966,6 @@ cultureInfo fr-FR
 			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.78
-			          }
-			        }
-			      ]
-			    },
-			    "PARAM_indicateurs_M_1prog": {
-			      "Definition": {
-			        "Binding": {
-			          "ConceptualEntity": "PARAM_indicateurs_M-1prog"
-			        }
-			      },
-			      "State": "Generated",
-			      "Terms": [
-			        {
-			          "PARAM indicateurs M 1prog": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "PARAM indicateur M 1prog": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.78
-			          }
-			        },
-			        {
-			          "PARAM_indicateurs_M-1prog": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.99
-			          }
-			        }
-			      ]
-			    },
-			    "PARAM_indicateurs_M_1prog.indicateurs_M_1prog": {
-			      "Definition": {
-			        "Binding": {
-			          "ConceptualEntity": "PARAM_indicateurs_M-1prog",
-			          "ConceptualProperty": "indicateurs_M-1prog"
-			        }
-			      },
-			      "State": "Generated",
-			      "Terms": [
-			        {
-			          "indicateurs M 1prog": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "indicateur M 1prog": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.78
-			          }
-			        },
-			        {
-			          "indicateurs_M-1prog": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.99
-			          }
-			        }
-			      ]
-			    },
-			    "PARAM_indicateurs_M_1prog.PARAM_indicateurs_M1prog_champs": {
-			      "Definition": {
-			        "Binding": {
-			          "ConceptualEntity": "PARAM_indicateurs_M-1prog",
-			          "ConceptualProperty": "PARAM_indicateurs_M-1prog Champs"
-			        }
-			      },
-			      "State": "Generated",
-			      "Visibility": {
-			        "Value": "Hidden"
-			      },
-			      "Terms": [
-			        {
-			          "PARAM_indicateurs_M-1prog champs": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "param_indicateurs_m-1prog winner": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.5
-			          }
-			        },
-			        {
-			          "param_indicateurs_m-1prog victor": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.5
-			          }
-			        },
-			        {
-			          "param_indicateurs_m-1prog titleholder": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.5
-			          }
-			        },
-			        {
-			          "param_indicateurs_m-1prog champion": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.485
-			          }
-			        }
-			      ]
-			    },
-			    "PARAM_indicateurs_M_1prog.PARAM_indicateurs_M1prog_commande": {
-			      "Definition": {
-			        "Binding": {
-			          "ConceptualEntity": "PARAM_indicateurs_M-1prog",
-			          "ConceptualProperty": "PARAM_indicateurs_M-1prog Commande"
-			        }
-			      },
-			      "State": "Generated",
-			      "Visibility": {
-			        "Value": "Hidden"
-			      },
-			      "Terms": [
-			        {
-			          "PARAM_indicateurs_M-1prog commande": {
-			            "State": "Generated"
-			          }
-			        }
-			      ]
-			    },
-			    "PARAM_indicateurs_M1prog": {
-			      "Definition": {
-			        "Binding": {
-			          "ConceptualEntity": "PARAM_indicateurs_M-1prog%"
-			        }
-			      },
-			      "State": "Generated",
-			      "Terms": [
-			        {
-			          "PARAM_indicateurs_M-1prog%": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "param_indicateurs_m-1prog percentage": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.75
-			          }
-			        },
-			        {
-			          "param_indicateurs_m-1prog pct": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.727
-			          }
-			        }
-			      ]
-			    },
-			    "PARAM_indicateurs_M1prog.indicateurs_M1prog": {
-			      "Definition": {
-			        "Binding": {
-			          "ConceptualEntity": "PARAM_indicateurs_M-1prog%",
-			          "ConceptualProperty": "indicateurs_M-1prog%"
-			        }
-			      },
-			      "State": "Generated",
-			      "Terms": [
-			        {
-			          "indicateurs_M-1prog%": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "indicateurs_m-1prog percentage": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.75
-			          }
-			        },
-			        {
-			          "indicateurs_m-1prog pct": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.727
-			          }
-			        }
-			      ]
-			    },
-			    "PARAM_indicateurs_M1prog.PARAM_indicateurs_M1prog_champs": {
-			      "Definition": {
-			        "Binding": {
-			          "ConceptualEntity": "PARAM_indicateurs_M-1prog%",
-			          "ConceptualProperty": "PARAM_indicateurs_M-1prog% Champs"
-			        }
-			      },
-			      "State": "Generated",
-			      "Visibility": {
-			        "Value": "Hidden"
-			      },
-			      "Terms": [
-			        {
-			          "PARAM_indicateurs_M-1prog% champs": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "param_indicateurs_m-1prog percentage champs": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.609
-			          }
-			        },
-			        {
-			          "param_indicateurs_m-1prog pct champs": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.591
-			          }
-			        },
-			        {
-			          "param_indicateurs_m-1prog% winner": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.508
-			          }
-			        },
-			        {
-			          "param_indicateurs_m-1prog% victor": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.508
-			          }
-			        },
-			        {
-			          "param_indicateurs_m-1prog% titleholder": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.508
-			          }
-			        },
-			        {
-			          "param_indicateurs_m-1prog% champion": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.492
-			          }
-			        }
-			      ]
-			    },
-			    "PARAM_indicateurs_M1prog.PARAM_indicateurs_M1prog_commande": {
-			      "Definition": {
-			        "Binding": {
-			          "ConceptualEntity": "PARAM_indicateurs_M-1prog%",
-			          "ConceptualProperty": "PARAM_indicateurs_M-1prog% Commande"
-			        }
-			      },
-			      "State": "Generated",
-			      "Visibility": {
-			        "Value": "Hidden"
-			      },
-			      "Terms": [
-			        {
-			          "PARAM_indicateurs_M-1prog% commande": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "param_indicateurs_m-1prog percentage commande": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.609
-			          }
-			        },
-			        {
-			          "param_indicateurs_m-1prog pct commande": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.591
 			          }
 			        }
 			      ]
@@ -7704,75 +7262,9 @@ cultureInfo fr-FR
 			        }
 			      ]
 			    },
-			    "PARAM_indicateurs_M1prog_has_indicateurs_M1prog": {
-			      "Binding": {
-			        "ConceptualEntity": "PARAM_indicateurs_M-1prog%"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "PARAM_indicateurs_M1prog": {
-			          "Target": {
-			            "Entity": "PARAM_indicateurs_M1prog"
-			          }
-			        },
-			        "PARAM_indicateurs_M1prog.indicateurs_M1prog": {
-			          "Target": {
-			            "Entity": "PARAM_indicateurs_M1prog.indicateurs_M1prog"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "PARAM_indicateurs_M1prog"
-			            },
-			            "Object": {
-			              "Role": "PARAM_indicateurs_M1prog.indicateurs_M1prog"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "PARAM_indicateurs_M1prog_have_indicateurs_M1prog"
-			        }
-			      ]
-			    },
-			    "PARAM_indicateurs_M_1prog_has_indicateurs_M_1prog": {
-			      "Binding": {
-			        "ConceptualEntity": "PARAM_indicateurs_M-1prog"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "PARAM_indicateurs_M_1prog": {
-			          "Target": {
-			            "Entity": "PARAM_indicateurs_M_1prog"
-			          }
-			        },
-			        "PARAM_indicateurs_M_1prog.indicateurs_M_1prog": {
-			          "Target": {
-			            "Entity": "PARAM_indicateurs_M_1prog.indicateurs_M_1prog"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "PARAM_indicateurs_M_1prog"
-			            },
-			            "Object": {
-			              "Role": "PARAM_indicateurs_M_1prog.indicateurs_M_1prog"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "PARAM_indicateurs_M_1progs_have_indicateurs_M_1progs"
-			        }
-			      ]
-			    },
 			    "PARAM_variable_has_variable": {
 			      "Binding": {
-			        "ConceptualEntity": "PARAM_Variables"
+			        "ConceptualEntity": "_param_variables"
 			      },
 			      "State": "Generated",
 			      "Roles": {
@@ -7803,42 +7295,9 @@ cultureInfo fr-FR
 			        }
 			      ]
 			    },
-			    "PARAM_indicateur_has_indicateur": {
-			      "Binding": {
-			        "ConceptualEntity": "PARAM_indicateurs"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "PARAM_indicateur": {
-			          "Target": {
-			            "Entity": "PARAM_indicateur"
-			          }
-			        },
-			        "PARAM_indicateur.indicateur": {
-			          "Target": {
-			            "Entity": "PARAM_indicateur.indicateur"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "PARAM_indicateur"
-			            },
-			            "Object": {
-			              "Role": "PARAM_indicateur.indicateur"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "PARAM_indicateurs_have_indicateurs"
-			        }
-			      ]
-			    },
 			    "PARAM_date_has_date": {
 			      "Binding": {
-			        "ConceptualEntity": "PARAM_Dates"
+			        "ConceptualEntity": "_param_dates"
 			      },
 			      "State": "Generated",
 			      "Roles": {
@@ -10942,138 +10401,6 @@ cultureInfo fr-FR
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "dimstores_have_stocks"
-			        }
-			      ]
-			    },
-			    "PARAM_indicateur_has_PARAM_indicateurs_M_1prog": {
-			      "Binding": {
-			        "ConceptualEntity": "PARAM_indicateurs"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "PARAM_indicateur": {
-			          "Target": {
-			            "Entity": "PARAM_indicateur"
-			          }
-			        },
-			        "PARAM_indicateurs_M_1prog": {
-			          "Target": {
-			            "Entity": "PARAM_indicateurs_M_1prog"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "PARAM_indicateur"
-			            },
-			            "Object": {
-			              "Role": "PARAM_indicateurs_M_1prog"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "PARAM_indicateurs_have_PARAM_indicateurs_M_1progs"
-			        }
-			      ]
-			    },
-			    "PARAM_indicateur_has_PARAM_indicateurs_M1prog": {
-			      "Binding": {
-			        "ConceptualEntity": "PARAM_indicateurs"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "PARAM_indicateur": {
-			          "Target": {
-			            "Entity": "PARAM_indicateur"
-			          }
-			        },
-			        "PARAM_indicateurs_M1prog": {
-			          "Target": {
-			            "Entity": "PARAM_indicateurs_M1prog"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "PARAM_indicateur"
-			            },
-			            "Object": {
-			              "Role": "PARAM_indicateurs_M1prog"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "PARAM_indicateurs_have_PARAM_indicateurs_M1prog"
-			        }
-			      ]
-			    },
-			    "PARAM_indicateurs_M_1prog_has_PARAM_indicateur": {
-			      "Binding": {
-			        "ConceptualEntity": "PARAM_indicateurs_M-1prog"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "PARAM_indicateurs_M_1prog": {
-			          "Target": {
-			            "Entity": "PARAM_indicateurs_M_1prog"
-			          }
-			        },
-			        "PARAM_indicateur": {
-			          "Target": {
-			            "Entity": "PARAM_indicateur"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "PARAM_indicateurs_M_1prog"
-			            },
-			            "Object": {
-			              "Role": "PARAM_indicateur"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "PARAM_indicateurs_M_1progs_have_PARAM_indicateurs"
-			        }
-			      ]
-			    },
-			    "PARAM_indicateurs_M1prog_has_PARAM_indicateur": {
-			      "Binding": {
-			        "ConceptualEntity": "PARAM_indicateurs_M-1prog%"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "PARAM_indicateurs_M1prog": {
-			          "Target": {
-			            "Entity": "PARAM_indicateurs_M1prog"
-			          }
-			        },
-			        "PARAM_indicateur": {
-			          "Target": {
-			            "Entity": "PARAM_indicateur"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "PARAM_indicateurs_M1prog"
-			            },
-			            "Object": {
-			              "Role": "PARAM_indicateur"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "PARAM_indicateurs_M1prog_have_PARAM_indicateurs"
 			        }
 			      ]
 			    },

@@ -1,3 +1,4 @@
 *.pbix
 *.pbir
 *.pbi/localSettings.json
+*.pbi/

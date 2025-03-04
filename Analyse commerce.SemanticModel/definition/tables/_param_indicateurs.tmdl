@@ -1,0 +1,76 @@
+table _param_indicateurs
+	lineageTag: 88123838-aabc-4f94-b045-e5fd1c9aa616
+
+	column indicateurs
+		lineageTag: 56a7cb0e-0155-4a05-9bab-8fa35dcab1e9
+		summarizeBy: none
+		sourceColumn: [Value1]
+		sortByColumn: ordre
+
+		relatedColumnDetails
+			groupByColumn: mesure
+
+		annotation SummarizationSetBy = Automatic
+
+	column mesure
+		isHidden
+		lineageTag: a2371c34-044a-4f8a-8acc-5981512555cf
+		summarizeBy: none
+		sourceColumn: [Value2]
+		sortByColumn: ordre
+
+		extendedProperty ParameterMetadata =
+				{
+				  "version": 3,
+				  "kind": 2
+				}
+
+		annotation SummarizationSetBy = Automatic
+
+	column ordre
+		isHidden
+		formatString: 0
+		lineageTag: da8b2945-cba9-4316-89e0-a092e6f98c8b
+		summarizeBy: sum
+		sourceColumn: [Value3]
+
+		annotation SummarizationSetBy = Automatic
+
+	column groupe
+		lineageTag: 41e141e9-542d-4dd4-88db-f6d70275872c
+		summarizeBy: none
+		sourceColumn: [Value4]
+		sortByColumn: ordre_groupe
+
+		annotation SummarizationSetBy = Automatic
+
+	column ordre_groupe
+		formatString: 0
+		lineageTag: 7853cd5d-b0f6-4495-8db6-5ac84be9c9e4
+		summarizeBy: sum
+		sourceColumn: [Value5]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition _param_indicateurs = calculated
+		mode: import
+		source =
+				{
+				    ("CA", NAMEOF('_mesures'[CA]), 0, "CA", 1),
+				    ("Quantité", NAMEOF('_mesures'[Quantité]), 10, "Qté", 2),
+				    ("Prix Moyen", NAMEOF('_mesures'[PrixMoyen]), 20, "Prix Moyen", 3),
+				    ("nb Clients", NAMEOF('_mesures'[NbClients]), 30, "nb Clients", 4),
+				    --M-1
+				    ("CA M-1", NAMEOF('_mesures'[CA_M-1]), 01, "M-1", 9),
+				    ("Qté M-1", NAMEOF('_mesures'[Quantité_M-1]), 11, "M-1", 9),
+				    ("PrixMoy M-1", NAMEOF('_mesures'[PrixMoyen_M-1]), 21, "M-1", 9),
+				    ("nbCli M-1", NAMEOF('_mesures'[NbClients_M-1]), 31, "M-1", 9),
+				    --M-1prog%
+				    ("CA prog%", NAMEOF('_mesures'[CA_M-1prog%]), 02, "CA", 1),
+				    ("Quantité prog%", NAMEOF('_mesures'[Quantité_M-1prog%]), 12, "Qté", 2),
+				    ("PrixMoy prog%", NAMEOF('_mesures'[PrixMoyen_M-1prog%]), 22, "Prix Moyen", 3),
+				    ("nbCli prog%", NAMEOF('_mesures'[NbClients_M-1prog%]), 32, "nb Clients", 4)
+				}
+
+	annotation PBI_Id = 0f58bb942ef540ba996c79f7f7f542ce
+
